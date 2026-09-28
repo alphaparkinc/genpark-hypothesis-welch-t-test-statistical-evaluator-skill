@@ -1,0 +1,26 @@
+{
+  "name": "genpark-hypothesis-welch-t-test-statistical-evaluator-skill",
+  "version": "1.0.0",
+  "description": "Two-sample Welch's t-test hypothesis evaluator computing Satterthwaite degrees of freedom and two-tailed p-values for A/B testing.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "welch-t-test",
+    "hypothesis-testing",
+    "ab-testing",
+    "p-value",
+    "statistics",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "evaluate_welch_t_test",
+      "description": "Execute Welch's t-test comparing two independent sample groups."
+    },
+    {
+      "name": "run_benchmark_welch_t_test",
+      "description": "Run Welch's t-test benchmark."
+    }
+  ]
+}
